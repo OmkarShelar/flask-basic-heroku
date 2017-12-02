@@ -2,6 +2,7 @@ git init
 git add .
 git commit -m "Commit msg"
 git push origin master (For GitHub)
-#heroku create myapp --buildpack heroku/python or
+#heroku create myapp --buildpack heroku/python
+#or
 heroku git:remote -a basics-flask
 git push heroku master

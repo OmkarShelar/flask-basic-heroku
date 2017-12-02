@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Commit msg"
+git push origin master (For GitHub)
+heroku create myapp --buildpack heroku/python
+git push heroku master

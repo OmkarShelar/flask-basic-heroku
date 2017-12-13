@@ -16,6 +16,10 @@ def n():
 	print(request.remote_addr)
 	return "Bye!"
 
+@app.route('/qwerty',methods=['GET'])
+def q():
+	return "<h1>Qwerty! :)</h1>"
+
 @app.route('/<int:id>/', methods=['GET'])
 def dbr(id):
 	# print(request.headers.get('User-Agent'))

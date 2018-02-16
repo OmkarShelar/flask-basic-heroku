@@ -32,7 +32,7 @@ def disqus_test():
 	return render_template('test.html')
 
 @app.route('/disqus_test/2', methods=['GET'])
-def disqus_test():
+def disqus_test_2():
 	return render_template('test.html')
 
 if __name__ == '__main__':

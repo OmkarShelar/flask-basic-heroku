@@ -35,5 +35,9 @@ def disqus_test():
 def disqus_test_2():
 	return render_template('test.html')
 
+@app.route('/templates/<int:id>/',methods=['GET'])
+def ids(id):
+	return render_template("index.html", id=id)
+
 if __name__ == '__main__':
 	app.run()
